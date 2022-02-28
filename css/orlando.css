@@ -1,0 +1,278 @@
+body {
+	overflow-x: hidden; 
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background-color: rgba(94, 41, 154, 0.8);
+	z-index: 2;
+	position: relative;
+}
+
+header .container{
+	position: relative;
+}
+
+header .header-black li a {
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+
+header #logotipo {
+	position: absolute;
+	top: 20px;
+	z-index: 3;
+}
+
+#menu {
+	margin: 26px -600px;
+	position: absolute;
+	right: 0;
+	margin-top: 50px;
+}
+
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+}
+
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#menu li.search input {
+	background-color: #5C2D90;
+}
+
+#banner{
+	background-image: url("../img/banner.jpg");
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -100px;
+}
+
+#banner h1{
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+	font-family: Arial;
+	margin-left: 10px;
+}
+
+#banner h1 small{
+	font-size: 32px;
+	display: block;
+	color: #fff;
+	font-family: Arial;
+	margin-left: 15px;
+}
+
+#news h2{
+	color: #5E2799;
+	font-family: 'OpenSans';
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#news hr{
+	border-color: #FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#news{
+	position: relative;
+	top: 110px;
+}
+
+#news .thumbnails{
+	margin-top: 20px;
+}
+
+#news .thumbnails h3{
+	color: #5E299A;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+#news .thumbnails time{
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+#estatisticas{
+	margin-top: 250px;
+	background-color: #5E299A;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+#estatisticas p{
+	color: #FDE092;
+	font-family: arial;
+	font-size: 62px;
+	margin-top: 25px;
+}
+
+#estatisticas p small{
+	color: #fff;
+	font-size: 24px;
+	display: block;
+}
+
+#call-to-action h2{
+	color: #5E2799;
+	font-family: 'OpenSans';
+	font-size: 48px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+#call-to-action hr{
+	border-color: #FDE192 solid 6px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#call-to-action p{
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #656565;
+}
+
+#call-to-action .btn-roxo{
+	color: #fff;
+	background-color: #5E299A;
+	border-color: #5E299A;
+	min-width: 164px;
+	height: 44px;
+	border-radius: 0;
+	margin-bottom: 15px;
+}
+
+#call-to-action .btn-amarelo {
+	color: #000;
+	background-color: #FDE192;
+	border-color: #FDE192;
+	min-width: 164px;
+	height: 44px;
+	border-radius: 0;
+}
+
+footer{
+	margin-top: 100px;
+}
+
+footer .row{
+	width: 100%;
+}
+
+footer .row p{
+	line-height: 60px;
+	margin-bottom: 0;
+}
+
+footer .row-cinza-claro{
+	height: 200px;
+	background-color: #171F26;
+}
+
+footer .row-cinza-escuro{
+	height: 60px;
+	background-color: #11171D;
+	border-top: #242D37 1px solid;
+}
+
+footer .float-end{
+	color: #666;
+	font-family: cursive;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+footer .float-start{
+	font-family: cursive;
+	font-size: 16px;
+	color: #666;
+	margin-left: 10px;
+}
+
+footer .logotipo {
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+footer .col-popular-post, 
+footer .col-links,
+footer .col-get-in-touch{
+	margin-top: -150px;
+	margin-left: 350px;
+}
+
+footer .col-popular-post h4{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom:  #242D37 1px solid;
+}
+
+footer .row-cols h5{
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+footer .row-cols time{
+	color: gold;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.espaco{
+	margin-bottom: 15px;
+}
+
+footer .col-get-in-touch a{
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+}
+
+footer .col-get-in-touch address{
+	color: #FFF;
+	font-family: arial;
+	font-size: 14px;
+}
+
+footer .col-get-in-touch{
+	margin-left: 1100px;
+}
+
+footer .col-get-in-touch h4{
+	color: white;
+}
+
+footer .col-get-in-touch p{
+	color: white;
+}
+
